@@ -6,7 +6,7 @@ If x matches with an element, return the index.*/
 
 int main()
 {
-	int n, num, i, j;
+	int n, num, i;
 	
 	printf ("\nEnter number of elements in array:");
 	scanf ("%d", &n);
