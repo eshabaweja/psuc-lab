@@ -24,6 +24,7 @@ int main()
 	
 	for(sub=0; sub<5; sub++)
 	{
+		avg=0;
 		for (stu=0; stu<3; stu++)
 			avg = avg + arr[stu][sub]; //sum of marks of all students in given subject
 		avg = avg/3;		//actual average by dividing by number of students
